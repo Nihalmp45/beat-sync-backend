@@ -1,7 +1,7 @@
 import express from 'express';
 import multer from 'multer';
 import path from 'path'; // Importing the path module
-import { generateVideo } from '../controller/songs.js'; // Importing the controller function
+import { generateVideo,checkVideoStatus, generateScript} from '../controller/songs.js'; // Importing the controller function
 
 const router = express.Router();
 
@@ -18,6 +18,12 @@ const storage = multer.diskStorage({
 const upload = multer({ storage: storage });
 
 // POST route to handle video generation
-router.post('/generate-video', upload.single('songFile'), generateVideo);
+router.post('/generate-video', generateVideo);
+router.get('/video-status', checkVideoStatus);
+router.post('/generate-script',generateScript)
+
+
+
+
 
 export default router;
