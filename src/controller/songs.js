@@ -121,7 +121,7 @@ export const checkVideoStatus = async (req, res) => {
   const { uuid } = req.query; // Extract UUID from query parameters
 
   if (!uuid) {
-    return res.status(400).json({ error: 'UUID is required to check video status.' });
+    return res.status(400).json({ error: 'UUID is required to check video status..' });
   }
 
   const options = {
