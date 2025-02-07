@@ -510,3 +510,12 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/api/video/video-status?uuid=2a5d98d3-eb86-4979-a812-174d7ee5e4d8\",\"status\":\"200\",\"responseTime\":\"570.951\"}","timestamp":"2025-02-06T19:23:22.413Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/api/video/video-status?uuid=2a5d98d3-eb86-4979-a812-174d7ee5e4d8\",\"status\":\"200\",\"responseTime\":\"759.709\"}","timestamp":"2025-02-06T19:33:23.189Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/api/video/video-status?uuid=2a5d98d3-eb86-4979-a812-174d7ee5e4d8\",\"status\":\"200\",\"responseTime\":\"687.204\"}","timestamp":"2025-02-06T19:43:23.897Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"OPTIONS\",\"url\":\"/api/video/generate-script\",\"status\":\"204\",\"responseTime\":\"2.241\"}","timestamp":"2025-02-07T17:30:33.237Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/api/video/generate-script\",\"status\":\"200\",\"responseTime\":\"6355.863\"}","timestamp":"2025-02-07T17:30:39.629Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"OPTIONS\",\"url\":\"/api/video/generate-video\",\"status\":\"204\",\"responseTime\":\"0.909\"}","timestamp":"2025-02-07T17:30:41.567Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/api/video/generate-video\",\"status\":\"500\",\"responseTime\":\"507.102\"}","timestamp":"2025-02-07T17:30:42.079Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"OPTIONS\",\"url\":\"/api/video/generate-script\",\"status\":\"204\",\"responseTime\":\"1.703\"}","timestamp":"2025-02-07T17:36:08.472Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/api/video/generate-script\",\"status\":\"200\",\"responseTime\":\"4645.713\"}","timestamp":"2025-02-07T17:36:13.158Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"OPTIONS\",\"url\":\"/api/video/generate-video\",\"status\":\"204\",\"responseTime\":\"0.268\"}","timestamp":"2025-02-07T17:36:14.886Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/api/video/generate-video\",\"status\":\"200\",\"responseTime\":\"1494.376\"}","timestamp":"2025-02-07T17:36:16.383Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/api/video/video-status?uuid=6ef4c1e1-0612-43d3-9577-a35b21a84d10\",\"status\":\"200\",\"responseTime\":\"633.268\"}","timestamp":"2025-02-07T17:36:17.023Z"}
