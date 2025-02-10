@@ -528,3 +528,12 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"OPTIONS\",\"url\":\"/api/video/generate-video\",\"status\":\"204\",\"responseTime\":\"0.211\"}","timestamp":"2025-02-10T09:18:43.081Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/api/video/generate-video\",\"status\":\"200\",\"responseTime\":\"1607.253\"}","timestamp":"2025-02-10T09:18:44.691Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/api/video/video-status?uuid=5b7f4b5a-c028-40fc-8ab2-88e39a959974\",\"status\":\"200\",\"responseTime\":\"556.132\"}","timestamp":"2025-02-10T09:18:45.254Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"OPTIONS\",\"url\":\"/api/video/generate-script\",\"status\":\"204\",\"responseTime\":\"3.670\"}","timestamp":"2025-02-10T15:00:45.841Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/api/video/generate-script\",\"status\":\"200\",\"responseTime\":\"4299.077\"}","timestamp":"2025-02-10T15:00:50.169Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"OPTIONS\",\"url\":\"/api/video/generate-script\",\"status\":\"204\",\"responseTime\":\"2.333\"}","timestamp":"2025-02-10T15:01:04.124Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/api/video/generate-script\",\"status\":\"200\",\"responseTime\":\"3818.185\"}","timestamp":"2025-02-10T15:01:07.962Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"OPTIONS\",\"url\":\"/api/video/generate-script\",\"status\":\"204\",\"responseTime\":\"0.374\"}","timestamp":"2025-02-10T15:01:28.043Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/api/video/generate-script\",\"status\":\"200\",\"responseTime\":\"5176.389\"}","timestamp":"2025-02-10T15:01:33.222Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"OPTIONS\",\"url\":\"/api/video/generate-video\",\"status\":\"204\",\"responseTime\":\"0.733\"}","timestamp":"2025-02-10T15:02:14.814Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/api/video/generate-video\",\"status\":\"200\",\"responseTime\":\"1493.356\"}","timestamp":"2025-02-10T15:02:16.312Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/api/video/video-status?uuid=ebfe9423-290c-4cfe-b6f3-5f3ddc084e1c\",\"status\":\"200\",\"responseTime\":\"621.139\"}","timestamp":"2025-02-10T15:02:16.948Z"}
