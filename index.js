@@ -6,6 +6,8 @@ import connectToDB from './src/config/db.js';
 import cors from 'cors';
 // import weatherRoutes from './src/views/weatherRoute.js'
 import videoRoutes from './src/views/videoRoute.js';
+import path from "path";
+import { fileURLToPath } from "url";
 
 const app = express()
 const port = process.env.PORT || 3000
@@ -34,8 +36,17 @@ app.use(
 // Enable CORS
 app.use(cors());
 
+app.use('/videos', express.static('videos'));
+
 // Serve static files from the "uploads" directory
 app.use('/uploads', express.static('uploads'));
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const OUTPUT_DIR = path.join(__dirname, "src/controller/processed_videos");
+
+app.use("/processed_videos", express.static(OUTPUT_DIR));
 
 
 
