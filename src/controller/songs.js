@@ -5,8 +5,6 @@ import { fileURLToPath } from "url";
 import path from "path";
 import ffmpeg from "fluent-ffmpeg";
 
-
-
 dotenv.config();
 
 const __filename = fileURLToPath(import.meta.url);
@@ -190,22 +188,24 @@ const downloadAndProcessVideo = async (videoUrl) => {
 
   console.log("Download complete, processing video...");
 
+  // Ensure the output directory exists
+  if (!fs.existsSync(OUTPUT_DIR)) {
+    fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+  }
+
   return new Promise((resolve, reject) => {
-    ffmpeg(tempPath) // Use tempPath as input
-      .outputOptions(
-        "-vf",
-        "scale=720:1280:force_original_aspect_ratio=decrease,pad=720:1280:(ow-iw)/2:(oh-ih)/2"
-      )
+    ffmpeg(tempPath)
+      .outputOptions("-vf", "crop=ih*9/16:ih") // Center crop
       .on("end", () => {
         console.log("Video processing complete:", processedPath);
         fs.unlinkSync(tempPath); // Delete temp file after processing
-        resolve(`/processed_videos/${processedFileName}`); // Return the URL path
+        resolve(`/processed_videos/${processedFileName}`); // Return processed video URL
       })
       .on("error", (err) => {
         console.error("Error processing video:", err);
         reject(err);
       })
-      .save(processedPath); // Save processed video to a different file
+      .save(processedPath); // Save processed video
   });
 };
 
