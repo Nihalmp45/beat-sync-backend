@@ -149,7 +149,7 @@ export const checkVideoStatus = async (req, res) => {
 
       return res.json({
         status: "success",
-        processedVideoUrl: `http://localhost:4000${processedVideoPath}`, // Serve video as a URL
+        processedVideoUrl: `https://beat-sync-backend-jcsc.onrender.com${processedVideoPath}`, // Serve video as a URL
       });
     }
 
